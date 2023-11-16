@@ -1,6 +1,9 @@
 function minDate(dates) {
   //write you code here
-	return dates[0];
+	 let copyDates = dates.map( (x) => x);
+    copyDates.sort();
+    console.log(copyDates);
+    return copyDates[0];
 }
 
 // Do not change the code
